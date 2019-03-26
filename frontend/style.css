@@ -8,14 +8,14 @@ body {
     min-height: 100vh;
 }
 header {
-    background: tomato;
+    background: rgb(255, 206, 71);
     display: flex;
     justify-content: center;
     padding: 2em;
 }
 main {
     flex:1;
-    background: grey;
+    background: rgb(146, 8, 8);
     color: white;
     padding: 2em;
     display: flex;
@@ -26,8 +26,9 @@ main {
 }
 
 .task {
+    border-radius: 1em;
     margin: 1em;
-    padding: 1em;
+    padding: 5em;
     background: white;
     color: black;
     max-width: 200px;
